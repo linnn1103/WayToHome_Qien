@@ -1,0 +1,9 @@
+{
+	"required": true,
+	"package": "com.qienhome.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": ["QienHomeMixin"],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

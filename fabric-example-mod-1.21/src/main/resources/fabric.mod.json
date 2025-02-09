@@ -1,0 +1,25 @@
+{
+	"schemaVersion": 1,
+	"id": "qien_home",
+	"version": "${version}",
+	"name": "QienHome",
+	"description": "幫助起嗯找到回家的路",
+	"authors": ["linn"],
+	"contact": {
+		"homepage": "https://example.com",
+		"sources": "https://github.com/yourrepo/qien_home"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/qien_home/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["com.qienhome.QienHomeMod"]
+	},
+	"mixins": ["qien_home.mixins.json"],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
